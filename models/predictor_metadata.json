@@ -1,0 +1,83 @@
+{
+  "model_engine": "LGBMRegressor",
+  "training_samples": 12000,
+  "test_samples": 3000,
+  "targets": [
+    "PM2.5",
+    "PM10",
+    "NO2",
+    "CO",
+    "SO2",
+    "O3"
+  ],
+  "feature_columns": [
+    "temperature",
+    "relative_humidity",
+    "wind_speed",
+    "wind_direction",
+    "surface_pressure",
+    "sin_hour",
+    "cos_hour",
+    "sin_dayofweek",
+    "cos_dayofweek",
+    "sin_month",
+    "cos_month",
+    "wind_dispersion",
+    "humidity_trapping",
+    "ventilation_index",
+    "pressure_trapping",
+    "pm_ratio",
+    "oxidant_ratio",
+    "PM2.5_lag1",
+    "PM2.5_roll3",
+    "PM2.5_roll24",
+    "PM10_lag1",
+    "PM10_roll3",
+    "PM10_roll24",
+    "NO2_lag1",
+    "NO2_roll3",
+    "NO2_roll24",
+    "CO_lag1",
+    "CO_roll3",
+    "CO_roll24",
+    "SO2_lag1",
+    "SO2_roll3",
+    "SO2_roll24",
+    "O3_lag1",
+    "O3_roll3",
+    "O3_roll24"
+  ],
+  "metrics": {
+    "PM2.5": {
+      "r2_score": 0.9976,
+      "rmse": 3.004,
+      "mae": 2.127
+    },
+    "PM10": {
+      "r2_score": 0.9993,
+      "rmse": 2.887,
+      "mae": 1.94
+    },
+    "NO2": {
+      "r2_score": 0.9938,
+      "rmse": 1.76,
+      "mae": 1.364
+    },
+    "CO": {
+      "r2_score": 0.9974,
+      "rmse": 0.047,
+      "mae": 0.037
+    },
+    "SO2": {
+      "r2_score": 0.9781,
+      "rmse": 0.707,
+      "mae": 0.565
+    },
+    "O3": {
+      "r2_score": 0.9908,
+      "rmse": 1.493,
+      "mae": 1.16
+    }
+  },
+  "trained_at": "2026-08-26 16:38:35 UTC"
+}
