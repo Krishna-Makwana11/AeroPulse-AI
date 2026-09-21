@@ -240,10 +240,19 @@ export default function App() {
               </span>
             </div>
 
-            <div className="flex items-center gap-4 text-slate-500 dark:text-slate-400 font-medium">
-              <span>Model: Random Forest Regressor (R² = 0.94)</span>
-              <span>•</span>
-              <span>Data: Open-Meteo & EPA Standards</span>
+            <div className="flex items-center gap-1.5 text-slate-500 dark:text-slate-400 font-medium">
+              <span>Developed by -</span>
+              <a
+                href="https://krishnaportfolio-wheat.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-emerald-600 dark:text-emerald-400 hover:text-emerald-500 dark:hover:text-emerald-300 font-semibold hover:underline underline-offset-2 transition-colors inline-flex items-center gap-1"
+              >
+                Krishna Makwana
+                <svg className="w-3.5 h-3.5 opacity-70" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </a>
             </div>
           </div>
         </footer>
