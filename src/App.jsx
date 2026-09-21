@@ -243,7 +243,7 @@ export default function App() {
             <div className="flex items-center gap-1.5 text-slate-500 dark:text-slate-400 font-medium">
               <span>Developed by -</span>
               <a
-                href="https://krishnaportfolio-wheat.vercel.app/"
+                href="https://krishna-makwana-portfolio.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-emerald-600 dark:text-emerald-400 hover:text-emerald-500 dark:hover:text-emerald-300 font-semibold hover:underline underline-offset-2 transition-colors inline-flex items-center gap-1"
